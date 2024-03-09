@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#body-index {
+  height: 110vh;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(imagenes/fondo-pc-07.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contenedor-nav {
+  display: flex;
+  justify-content: end;
+  background: black;
+}
+
+.items-nav {
+  display: inline-block;
+  margin: 1rem 1.5rem;
+}
+
+.ancor {
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 600;
+}
+
+.ancor:hover {
+  background: white;
+  color: black;
+  border-radius: 1rem;
+}
+
+.contender-main {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1-titulo-principal {
+  margin-top: 4;
+  font-size: 2.5rem;
+  padding: 0 1rem;
+  color: white;
+  background: black;
+}
+
+.generador-contraseñas-interfaz {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.textarea-1 {
+  border-radius: 1rem;
+  font-size: 2rem;
+  resize: none;
+}
+
+.botones-contenedor {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-generar-contraseña {
+  font-size: 1.2rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.8rem;
+  color: white;
+  font-weight: 600;
+  background: black;
+}
+
+.btn-generar-contraseña:hover {
+  background: white;
+  color: black;
+}
+
+.h1-reglas-reglas-contraseña {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.items-reglas {
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 600;
+}
+
+.reglas--contraseña {
+  margin-bottom: 2rem;
+}
+
+.footer-1 {
+  background-color: black;
+  width: 100%;
+  height: 10rem;
+}
+
+.redes {
+  color: cyan;
+  font-size: 1.7rem;
+}
+
+/* pagina porque usar generador de contraseñas */
+
+.h3-porqueUsarGen {
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 4rem;
+}
+
+.parrafo-porqueUsarGen {
+  margin-top: 6rem;
+  padding: 0 5rem;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.my-name {
+  color: white;
+  text-align: end;
+  font-size: 1.6rem;
+  margin: 4rem 8rem 8rem;
+}
+
+.footer-1 {
+  padding: 1rem 0;
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+}
+
+/* pagina contraseña fuerte*/
+
+.h1-contraseña-fuerte {
+  margin-top: 4;
+  font-size: 2.5rem;
+  padding: 0 1rem;
+  color: white;
+}
+
+.contenedor-p-contraseña-fuerte {
+  margin-top: 2rem;
+}
+
+.parrafo-contraseña-fuerte {
+  color: white;
+  font-size: 1.3rem;
+  margin: 0 5rem 1rem 5rem;
+}
+
+img {
+  margin: 1rem 30rem;
+  align-items: center;
+  width: 25vw;
+  height: 45vh;
+}
+
+/*//////////////////////*/
+
+@media (max-width: 500px) {
+  /*index*/
+  .textarea-1 {
+    width: 90%;
+    margin: 0 1rem;
+  }
+
+  .reglas--contraseña {
+    margin-top: 1rem;
+    margin: 0 2rem;
+  }
+
+  /*paginas porque usar generador de contraseñas*/
+  .parrafo-porqueUsarGen {
+    padding: 0 1.5rem;
+    margin-top: 8rem;
+  }
+  .my-name {
+    margin: 2rem 1rem;
+  }
+
+  /*pagina contraseña fuerte*/
+  img {
+    width: 90%;
+    height: 30%;
+    margin: 0 1rem;
+  }
+
+  .parrafo-contraseña-fuerte {
+    margin: 1rem;
+  }
+
+  /*///////////////////////*/
+  .desarrollador {
+    margin-top: 3rem;
+  }
+}
+
+.body-contraseña-fuerte {
+  background-image: url(imagenes/fondo-pc-02.jpg);
+}

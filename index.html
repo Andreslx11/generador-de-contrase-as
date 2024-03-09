@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generador de contraseñas</title>
+    <link rel="icon" type="image/png"  href="imagenes/contrasena.png">
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"  defer></script>
+  </head>
+  <body id="body-index">
+    <header class="header-nav">
+        <div class="contenedor-nav">
+            <nav class="nav">
+                <ul class="lista-items-nav">
+                    <li class="items-nav">
+                        <a href="porqueUsarGen.html" class="ancor"  >
+                            ¿Por que usar generador de contraseñas?
+                        </a>
+                    </li>
+                    <li class="items-nav">
+                        <a href="contraseñaFuerte.html" class="ancor">
+                            información  contraseña fuerte
+                        </a>
+                    </li>
+                </ul>
+              
+            </nav>
+        </div>
+    </header>
+    <main class="contender-main">
+
+            <h1 class="h1-titulo-principal">
+                Generador de contraseñas seguras 
+            </h1>
+      <section class="generador-contraseñas-interfaz">
+        <textarea  cols="25" rows="2" class="textarea-1" id="textArea"></textarea>
+        <div class="botones-contenedor">
+            <button class="btn-generar-contraseña" id="btn-contraseña" onclick="">Generar contraseña</button>
+            <button class="btn-generar-contraseña" id="btn-copiar" onclick="">Copiar</button> 
+        </div>
+      </section>
+      <div class="reglas--contraseña">
+        <h3 class="h1-reglas-reglas-contraseña">
+          Reglas Para una contraseña segura
+        </h3>
+        <p class="parrafo-reglas-reglas-contraseña">
+            <ol class="lista--reglas-reglas-contraseña">
+                <li class="items-reglas">
+                    longitud minima 12 caracteres, ideal 15 caracteres,<br>
+                    el programa siempre te genera 15 caracteres lo más seguro.
+                </li>
+                <li class="items-reglas">
+                    Debe contener letras minúsculas y mayúsculas.
+                </li>
+                <li class="items-reglas">
+                    Debe tener caracteres especiales y números.
+                </li>
+                <li class="items-reglas">
+                    No usar patrones ó moldes de diseño de claves.
+                </li>
+                <li class="items-reglas">
+                    No debe contener ningún tipo de información 
+                    <br>relacionada con la persona.
+                </li>
+                <li class="items-reglas">
+                    No usar palabras del idioma.
+                </li>
+                <li class="items-reglas">
+                    No usar palabras de otros idiomas.
+                </li>
+                <li class="items-reglas">
+                    No guardar las contraseñas en texto plano.
+                </li>
+                <li class="items-reglas">
+                    Usar verificación en dos pasos.
+                </li>
+            </ol>
+        </p>
+    </div>
+    </main>
+  
+  </body>
+  <footer class="footer-1">
+    <p class="desarrollador">Desarrollado por Andres Muñoz Taborda</p>
+    <p>
+        <a href="https://www.linkedin.com/in/andres-muñoz-taborda"  
+        target="_blank" rel="noreferrer" class="redes">
+        linkidin
+        </a>
+    </p>
+   
+  </footer>
+</html>
